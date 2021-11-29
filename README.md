@@ -2,7 +2,7 @@
 
 [LIVE SITE URL](https://dova-blogr-landing-page.netlify.app)
 
-![Design preview for the Blogr landing page coding challenge](../blogr-landing-page/public/design/desktop-preview.jpg)
+![Design preview for the Blogr landing page coding challenge](./public/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
