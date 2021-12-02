@@ -3,9 +3,9 @@ import Sign from './sign/sign.component';
 
 import './container.styles.scss';
 
-const Container = () => {
+const Container = ({ showMenu }) => {
   return (
-    <div>
+    <div className="Container">
       <Menus />
       <Sign />
     </div>

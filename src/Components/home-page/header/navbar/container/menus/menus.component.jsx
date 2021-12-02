@@ -5,7 +5,7 @@ import './menus.styles.scss';
 
 const Menus = () => {
   return (
-    <ul>
+    <ul className="Menus">
       {menus.map(menu => {
         return <MenuItem key={menu.id} {...menu} />;
       })}

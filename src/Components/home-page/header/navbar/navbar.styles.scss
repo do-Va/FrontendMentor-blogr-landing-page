@@ -1,0 +1,12 @@
+.Navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+}

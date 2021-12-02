@@ -5,30 +5,31 @@
   --clr-white-text: hsl(0, 0%, 100%);
   --clr-g-blue-footer-text: hsl(240, 2%, 79%);
   --clr-d-blue-heading: hsl(208, 49%, 24%);
+  --clr-l-blue-heading: hsl(208, 46%, 45%);
   --clr-dg-blue-body-text: hsl(207, 13%, 34%);
 
   --clr-vl-red-hover-button-bg: hsl(355, 100%, 74%);
   --clr-b-blue-footer-bg: hsl(240, 10%, 16%);
-  --clr-desk-gradient-header-bg: linear(
-    to right,
-    hsl(13, 100%, 72%),
-    hsl(353, 100%, 62%)
+  --clr-desk-gradient-header-bg: linear-gradient(
+    to right bottom,
+    hsla(13, 100%, 72%, 0.93),
+    hsla(353, 100%, 62%, 0.93)
   );
 
-  --clr-mob-gradient-header-bg: linear(
-    to bottom,
-    hsl(13, 100%, 72%),
-    hsl(353, 100%, 62%)
+  --clr-mob-gradient-header-bg: linear-gradient(
+    to right bottom,
+    hsla(13, 100%, 72%, 0.93),
+    hsla(353, 100%, 62%, 0.93)
   );
 
-  --clr-desk-gradient-body-bg: linear(
-    to right,
+  --clr-desk-gradient-body-bg: linear-gradient(
+    to right bottom,
     hsl(237, 17%, 21%),
     hsl(237, 23%, 32%)
   );
 
-  --clr-mob-gradient-body-bg: linear(
-    to bottom,
+  --clr-mob-gradient-body-bg: linear-gradient(
+    to right bottom,
     hsl(237, 17%, 21%),
     hsl(237, 23%, 32%)
   );
@@ -51,6 +52,7 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 html,
@@ -92,6 +94,14 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 #root,

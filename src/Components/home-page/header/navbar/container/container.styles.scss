@@ -1,0 +1,15 @@
+.Container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--clr-white-text);
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  top: 70px;
+  z-index: 100;
+  box-shadow: 0px 20px 20px rgba($color: #000000, $alpha: 0.3);
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+}

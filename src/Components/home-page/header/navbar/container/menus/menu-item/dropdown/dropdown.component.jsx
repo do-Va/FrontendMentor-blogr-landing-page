@@ -2,9 +2,9 @@ import DropdownItem from './dropdown-item/dropdown-item.component';
 
 import './dropdown.styles.scss';
 
-const Dropdown = ({ dropdown }) => {
+const Dropdown = ({ dropdown, showDropdownMenu }) => {
   return (
-    <ul>
+    <ul className={`Dropdown ${showDropdownMenu ? 'show' : ''}`}>
       {dropdown.map((item, idx) => {
         return <DropdownItem key={idx} item={item} />;
       })}

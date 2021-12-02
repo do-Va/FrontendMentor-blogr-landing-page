@@ -1,0 +1,8 @@
+.Header {
+  height: 65vh;
+  padding: 40px 30px;
+  border-bottom-left-radius: 100px;
+  background: var(--clr-mob-gradient-header-bg),
+    url('./images/bg-pattern-intro-mobile.svg') no-repeat -340px -250px;
+  position: relative;
+}
