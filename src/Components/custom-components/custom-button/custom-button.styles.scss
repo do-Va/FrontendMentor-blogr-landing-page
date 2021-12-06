@@ -1,0 +1,33 @@
+.Custom-button {
+  padding: 10px 20px;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s linear;
+  border: none;
+  font-weight: 500;
+  // margin-top: 20px;
+  // background: var(--clr-desk-gradient-header-bg);
+
+  &.main {
+    background: var(--clr-white-text);
+    color: var(--clr-l-red-header-text);
+
+    &:hover {
+      background: var(--clr-vl-red-hover-button-bg);
+      color: var(--clr-white-text);
+    }
+  }
+
+  &.secondary {
+    border: 1px solid var(--clr-white-text);
+    background: transparent;
+    color: var(--clr-white-text);
+
+    &:hover {
+      background: var(--clr-white-text);
+      color: var(--clr-l-red-header-text);
+    }
+  }
+}

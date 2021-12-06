@@ -1,0 +1,11 @@
+.Sign-in {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s linear;
+
+  &:hover {
+    color: var(--clr-l-red-header-text);
+  }
+}

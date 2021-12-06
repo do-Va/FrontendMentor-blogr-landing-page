@@ -1,7 +1,11 @@
 import './sign-up.styles.scss';
 
 const SignUp = () => {
-  return <div>SignUp</div>;
+  return (
+    <button className="Sign-up">
+      <p>Sign Up</p>
+    </button>
+  );
 };
 
 export default SignUp;

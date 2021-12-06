@@ -11,7 +11,7 @@
   --clr-vl-red-hover-button-bg: hsl(355, 100%, 74%);
   --clr-b-blue-footer-bg: hsl(240, 10%, 16%);
   --clr-desk-gradient-header-bg: linear-gradient(
-    to right bottom,
+    to right,
     hsla(13, 100%, 72%, 0.93),
     hsla(353, 100%, 62%, 0.93)
   );
@@ -23,7 +23,7 @@
   );
 
   --clr-desk-gradient-body-bg: linear-gradient(
-    to right bottom,
+    to right,
     hsl(237, 17%, 21%),
     hsl(237, 23%, 32%)
   );

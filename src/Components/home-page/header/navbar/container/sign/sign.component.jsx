@@ -5,9 +5,9 @@ import './sign.styles.scss';
 
 const Sign = () => {
   return (
-    <div>
-      <SignUp />
+    <div className="Sign">
       <SignIn />
+      <SignUp />
     </div>
   );
 };

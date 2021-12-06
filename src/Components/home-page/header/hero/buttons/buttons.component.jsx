@@ -4,9 +4,9 @@ import './buttons.styles.scss';
 
 const Buttons = () => {
   return (
-    <div>
-      <CustomButton />
-      <CustomButton />
+    <div className="Buttons">
+      <CustomButton title={'Start for Free'} main />
+      <CustomButton title={'Learn More'} secondary />
     </div>
   );
 };

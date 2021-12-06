@@ -1,7 +1,7 @@
 import './sign-in.styles.scss';
 
 const SignIn = () => {
-  return <div>SignIn</div>;
+  return <button className="Sign-in">Login</button>;
 };
 
 export default SignIn;

@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 import Dropdown from './dropdown/dropdown.component';
 
-import { ReactComponent as LightArrow } from '../../../../images/icon-arrow-light.svg';
-import { ReactComponent as DarkArrow } from '../../../../images/icon-arrow-dark.svg';
+import LightArrow from '../../../../images/icon-arrow-light.svg';
+import DarkArrow from '../../../../images/icon-arrow-dark.svg';
 
 import './menu-item.styles.scss';
 
@@ -17,7 +17,7 @@ const MenuItem = ({ name, dropdown }) => {
         onClick={() => setShowDropdownMenu(!showDropdownMenu)}
       >
         <p className={showDropdownMenu && 'light'}>{name}</p>
-        <DarkArrow className={showDropdownMenu ? 'rotate' : ''} />
+        <div className={`${showDropdownMenu ? 'rotate' : ''} img-box`}></div>
       </div>
       <Dropdown dropdown={dropdown} showDropdownMenu={showDropdownMenu} />
     </li>
