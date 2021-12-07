@@ -9,4 +9,10 @@
   margin-bottom: 20px;
 
   border-bottom: 1px solid var(--clr-g-blue-footer-text);
+
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+    border-bottom: none;
+    margin-bottom: 0;
+  }
 }

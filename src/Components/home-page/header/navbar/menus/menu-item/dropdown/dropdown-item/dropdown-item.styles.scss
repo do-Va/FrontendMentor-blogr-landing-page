@@ -1,0 +1,28 @@
+.Dropdown-item {
+  a {
+    color: var(--clr-dg-blue-body-text);
+    transition: var(--trans);
+    font-weight: 700;
+    position: relative;
+    transition: var(--trans);
+
+    &::before {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: var(--clr-l-blue-heading);
+      position: absolute;
+      bottom: -2px;
+      transform: scale(0);
+      transition: var(--trans);
+    }
+
+    &:hover {
+      color: var(--clr-l-blue-heading);
+
+      &::before {
+        transform: scale(1);
+      }
+    }
+  }
+}

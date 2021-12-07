@@ -3,15 +3,42 @@
   font-family: 'Overpass', sans-serif;
   font-weight: 600;
   color: var(--clr-white-text);
+  font-size: 16px;
 
   h2 {
-    font-size: 2.2em;
+    font-size: 1.81em;
     margin-bottom: 20px;
   }
 
   p {
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 40px;
+  }
+
+  @media only screen and (min-width: 375px) {
+    h2 {
+      font-size: 2.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    h2 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    h2 {
+      font-size: 4em;
+    }
   }
 }

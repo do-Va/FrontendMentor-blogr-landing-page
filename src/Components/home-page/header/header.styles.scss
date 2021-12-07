@@ -1,8 +1,19 @@
 .Header {
-  height: 65vh;
+  height: 100vh;
   padding: 40px 30px;
   border-bottom-left-radius: 100px;
   background: var(--clr-mob-gradient-header-bg),
-    url('./images/bg-pattern-intro-mobile.svg') no-repeat -340px -250px;
+    url('./images/bg-pattern-intro-mobile.svg') no-repeat -340px 50px;
   position: relative;
+
+  @media only screen and (min-width: 615px) {
+    background: var(--clr-mob-gradient-header-bg),
+      url('./images/bg-pattern-intro-desktop.svg') no-repeat -300px -100px /
+        1500px;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    background: var(--clr-mob-gradient-header-bg),
+      url('./images/bg-pattern-intro-desktop.svg') no-repeat center 35% / 200vw;
+  }
 }

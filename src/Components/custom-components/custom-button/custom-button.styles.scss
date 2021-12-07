@@ -1,5 +1,5 @@
 .Custom-button {
-  padding: 10px 20px;
+  padding: 10px;
   font-family: 'Ubuntu', sans-serif;
   border-radius: 50px;
   cursor: pointer;
@@ -9,6 +9,14 @@
   font-weight: 500;
   // margin-top: 20px;
   // background: var(--clr-desk-gradient-header-bg);
+
+  @media only screen and (min-width: 347px) {
+    padding: 10px 20px;
+  }
+
+  @media only screen and (min-width: 450px) {
+    padding: 10px 40px;
+  }
 
   &.main {
     background: var(--clr-white-text);

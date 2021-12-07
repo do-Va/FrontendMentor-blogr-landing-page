@@ -1,14 +1,15 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import Dropdown from './dropdown/dropdown.component';
-
-import LightArrow from '../../../../images/icon-arrow-light.svg';
-import DarkArrow from '../../../../images/icon-arrow-dark.svg';
 
 import './menu-item.styles.scss';
 
 const MenuItem = ({ name, dropdown }) => {
   const [showDropdownMenu, setShowDropdownMenu] = useState(false);
+
+  const handleChange = () => {
+    setShowDropdownMenu(false);
+  };
 
   return (
     <li className="Menu__item">

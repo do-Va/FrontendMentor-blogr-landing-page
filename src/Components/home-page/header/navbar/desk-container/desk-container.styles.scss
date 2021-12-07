@@ -1,0 +1,12 @@
+.DeskContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 799px) {
+  .DeskContainer {
+    display: none;
+  }
+}

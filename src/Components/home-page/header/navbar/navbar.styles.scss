@@ -3,10 +3,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 
   .btn {
     border: none;
     background: transparent;
     cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .menu-icon {
+    display: none;
   }
 }

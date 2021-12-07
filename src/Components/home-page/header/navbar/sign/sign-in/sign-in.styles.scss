@@ -8,4 +8,12 @@
   &:hover {
     color: var(--clr-l-red-header-text);
   }
+
+  @media only screen and (min-width: 800px) {
+    color: var(--clr-white-text);
+
+    &:hover {
+      color: var(--clr-white-text);
+    }
+  }
 }
