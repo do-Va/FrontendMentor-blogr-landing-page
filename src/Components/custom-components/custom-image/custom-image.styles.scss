@@ -1,0 +1,28 @@
+.Custom-image {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+
+  @media only screen and (min-width: 900px) {
+    grid-column: 2 / -1;
+
+    &.second {
+      grid-column: 1 / 2;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    img {
+      max-width: 130%;
+    }
+
+    &.second {
+      img {
+        position: relative;
+        left: -20%;
+      }
+    }
+  }
+}

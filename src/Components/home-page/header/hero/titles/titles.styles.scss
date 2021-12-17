@@ -6,7 +6,7 @@
   font-size: 16px;
 
   h2 {
-    font-size: 1.81em;
+    font-size: 1.4em;
     margin-bottom: 20px;
   }
 
@@ -18,21 +18,21 @@
 
   @media only screen and (min-width: 375px) {
     h2 {
+      font-size: 2em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+  }
+
+  @media only screen and (min-width: 392px) {
+    h2 {
       font-size: 2.2em;
     }
 
     p {
       font-size: 1.2em;
-    }
-  }
-
-  @media only screen and (min-width: 800px) {
-    h2 {
-      font-size: 3em;
-    }
-
-    p {
-      font-size: 1.5em;
     }
   }
 

@@ -7,9 +7,9 @@
   --clr-d-blue-heading: hsl(208, 49%, 24%);
   --clr-l-blue-heading: hsl(208, 46%, 45%);
   --clr-dg-blue-body-text: hsl(207, 13%, 34%);
-
   --clr-vl-red-hover-button-bg: hsl(355, 100%, 74%);
   --clr-b-blue-footer-bg: hsl(240, 10%, 16%);
+
   --clr-desk-gradient-header-bg: linear-gradient(
     to right,
     hsla(13, 100%, 72%, 0.93),
@@ -47,12 +47,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
-
-* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -94,6 +91,15 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
 }
 
 ul {

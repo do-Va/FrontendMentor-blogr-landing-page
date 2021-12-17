@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import Dropdown from './dropdown/dropdown.component';
 
@@ -8,19 +8,20 @@ const MenuItem = ({ name, dropdown }) => {
   const [showDropdownMenu, setShowDropdownMenu] = useState(false);
 
   const handleChange = () => {
-    setShowDropdownMenu(false);
+    setShowDropdownMenu(!showDropdownMenu);
   };
 
   return (
     <li className="Menu__item">
-      <div
-        className="Menu__item-header"
-        onClick={() => setShowDropdownMenu(!showDropdownMenu)}
-      >
-        <p className={showDropdownMenu && 'light'}>{name}</p>
+      <div className="Menu__item-header" onClick={handleChange}>
+        <p className={showDropdownMenu ? 'light' : ''}>{name}</p>
         <div className={`${showDropdownMenu ? 'rotate' : ''} img-box`}></div>
       </div>
-      <Dropdown dropdown={dropdown} showDropdownMenu={showDropdownMenu} />
+      <Dropdown
+        dropdown={dropdown}
+        showDropdownMenu={showDropdownMenu}
+        handleChange={handleChange}
+      />
     </li>
   );
 };

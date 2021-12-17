@@ -2,9 +2,9 @@ import logoImg from './images/logo.svg';
 
 import './logo.styles.scss';
 
-const Logo = () => {
+const Logo = ({ footer }) => {
   return (
-    <div className="Logo">
+    <div className={`Logo ${footer ? 'footer' : ''}`}>
       <img src={logoImg} alt="logo" />
     </div>
   );

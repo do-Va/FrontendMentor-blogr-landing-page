@@ -7,15 +7,16 @@
   transition: all 0.2s linear;
   border: none;
   font-weight: 500;
-  // margin-top: 20px;
-  // background: var(--clr-desk-gradient-header-bg);
+  font-size: 0.7em;
 
   @media only screen and (min-width: 347px) {
     padding: 10px 20px;
+    font-size: 0.9em;
   }
 
   @media only screen and (min-width: 450px) {
     padding: 10px 40px;
+    font-size: 1em;
   }
 
   &.main {
